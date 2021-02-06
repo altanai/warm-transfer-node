@@ -8,6 +8,17 @@
 
 Have you ever been disconnected from a support call while being transferred to another support agent? Warm transfer eliminates this problem. Using Twilio powered warm transfers your agents will have the ability to conference in another agent in realtime.
 
+Twilio powered warm transfers your agents will have the ability to dial in another agent in real-time.
+
+Here is how it works at a high level:
+
+1. The first agent becomes available when they connect through the web client.
+2. The second agent also becomes available when they connect through the web client.
+3. A client calls our support line.
+4. The client stays on hold while the first agent joins the call.
+5. While the first agent is on the phone with the client, they can dial a second agent into the call.
+6. Once the second agent is on the call, the first one can disconnect from it. This way the client and the second agent stay on the call.
+
 [Read the full tutorial here](https://www.twilio.com/docs/tutorials/walkthrough/warm-transfer/node/express)!
 
 ## Requirements:
